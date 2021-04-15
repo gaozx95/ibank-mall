@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.gaozx95</groupId>
+    <artifactId>ibank-mall</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <packaging>pom</packaging>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+
+    <modules>
+        <module>ibank-mall-api</module>
+        <module>ibank-mall-application</module>
+        <module>ibank-mall-common</module>
+        <module>ibank-mall-service</module>
+        <module>ibank-mall-generator</module>
+        <module>ibank-mall-api/ibank-mall-sms-api</module>
+        <module>ibank-mall-api/ibank-mall-cms-api</module>
+        <module>ibank-mall-api/ibank-mall-dictionary-api</module>
+        <module>ibank-mall-application/ibank-mall-manager-web</module>
+        <module>ibank-mall-application/ibank-mall-portal-web</module>
+    </modules>
+
+</project>
